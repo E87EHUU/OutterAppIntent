@@ -22,12 +22,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.adress).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("myOwnIntentAction");
+                Intent intent = new Intent("myAction");
                 startActivity(intent);
             }
         });
-
     }
-
-
 }
